@@ -1,6 +1,6 @@
 # TDD-Python
 
-Fala players tranquilos? Hoje no intuito de entender melhor sobre testes unitarios e o TDD resolvi criar esse projeto que faz a implementação de testes simples em uma função chamada "soma" e uma classe chamada "Pessoa". Segue abaixo um pequeno resumo sobre o TDD 
+Fala players tranquilos <img src="to_readme/emoji_programing.png" alt="" align="center" height="15" width="15"> ? Hoje no intuito de entender melhor sobre testes unitarios e o TDD resolvi criar esse projeto que faz a implementação de testes simples em uma função chamada "soma" e uma classe chamada "Pessoa". Segue abaixo um pequeno resumo sobre o 
 #
 O TDD (Test-driven Development) é uma prática de desenvolvimento de software que segue um ciclo curto de repetidas etapas de teste e implementação. Primeiro, um teste automatizado é criado para um requisito específico. Em seguida, o código é escrito para atender esse requisito e o teste é executado. Se o teste passar, o código é considerado correto. Caso contrário, o código é modificado até que o teste passe.
 #
