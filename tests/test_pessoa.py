@@ -41,7 +41,7 @@ class TestPessoa(unittest.TestCase):
         with patch('requests.get') as fake_request:
             fake_request.return_value.ok = True
 
-            self.assertEqual(self.p1.obter_todos_os_dados, 'CONECTADO')
+            self.assertEqual(self.p1.obter_todos_os_dados(), 'CONECTADO')
             self.assertTrue(self.p1.dados_obitidos)
     
 
@@ -49,7 +49,7 @@ class TestPessoa(unittest.TestCase):
         with patch('requests.get') as fake_request:
             fake_request.return_value.ok = False
 
-            self.assertEqual(self.p1.obter_todos_os_dados, 'ERRO 404')
+            self.assertEqual(self.p1.obter_todos_os_dados(), 'ERRO 404')
             self.assertFalse(self.p1.dados_obitidos)
 
 if __name__ == '__main__':
