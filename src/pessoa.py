@@ -10,6 +10,8 @@ class Pessoa():
         resposta = requests.get('')
 
         if resposta.ok:
+            self.dados_obitidos = True
             return 'CONECTADO'
         else:
-            return 'ERROR 404'
+            self.dados_obitidos = False
+            return 'ERRO 404'
